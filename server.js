@@ -16,6 +16,10 @@ app.get('/:date', function(req, res){
     }
 });
 
+app.get('/', function(req, res){
+	res.end('give a date as a parameter in the url, like so: "https://secure-brushlands-62921.herokuapp.com/January 5, 2017" or include a unix timestamp (ms after January 1, 1970).');
+});
+
 app.listen(process.env.PORT || 8080, function(){
     console.log("listening on port 8080");
 });
