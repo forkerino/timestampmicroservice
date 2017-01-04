@@ -4,7 +4,8 @@
   "description": "Timestamp Microservice FCC project",
   "main": "server.js",
   "dependencies": {
-    "express": "^3.2.6"
+    "express": "^3.2.6",
+    "moment": "^2.17.1"
   },
   "devDependencies": {},
   "scripts": {
